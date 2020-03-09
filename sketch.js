@@ -77,7 +77,7 @@ function mouseDragged(){
   //}
 }
 function mouseReleased(){
-  gameState === "launched";
+  gameState = "launched";
   slingshot.fly();
 }
 function keyPressed(){
